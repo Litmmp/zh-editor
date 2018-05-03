@@ -6,6 +6,8 @@
 		<title>编辑器</title>
 
 		<link rel="stylesheet" href="css/editor.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+
 
  		<!-- 自定义编辑器配置 -->
 		<script>
@@ -24,26 +26,26 @@
 			<div id="editor" class="editor">
 				<div class="menu">
 					<div class="option">
-						<a href="#" data-role="insertImage">图</a>
+						<a href="#" data-role="insertImage"><i class="iconfont icon-img"></i></a>
 						<input type="file" id="img" hidden="hidden" />
 					</div>
 					<div id="test" class="option">
-						<a href="#" data-role='bold'>B</a>
+						<a href="#" data-role='bold'><i class="iconfont icon-bold"></i></a>
 					</div>
 					<div class="option">
-						<a href='#' data-role='italic'>I</a>
+						<a href='#' data-role='italic'><i class="iconfont icon-italic"></i></a>
 					</div>
 					<div class="option">
-						<a href='#' data-role='underline'>U</a>
+						<a href='#' data-role='underline'><i class="iconfont icon-underline"></i></a>
 					</div>
 				</div>
 				<div id="content" class="content" contenteditable="true"></div>
 			</div>
-
-			<button id="htmlContent">获取html内容</button>
-			<button id="textContent">获取text内容</button>
-			<button id="clearHtmlContent">清除内容</button>
-
+			<div class="btngroup">
+				<button id="htmlContent">获取html内容</button>
+				<button id="textContent">获取text内容</button>
+				<button id="clearHtmlContent">清除内容</button>
+			</div>
 			<div id="show" class="show"></div>
 
 		</div>
