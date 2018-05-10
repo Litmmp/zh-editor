@@ -86,6 +86,7 @@
 .editor .content {
 	clear: both;
 	outline: none;
+
 }
 .btngroup{
 	margin: 10px 0;
@@ -101,6 +102,7 @@
 	background: #aaa;
 	color: #fff
 }
+
 .show{
 	min-height: 100px;
 	padding: 10px;
